@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/user_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="16dp"
+            android:hint="@string/user_firstName"/>
+
+        <EditText
+            android:id="@+id/user_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="4dp"
+            android:hint="@string/user_lastName"
+            />
+
+        <EditText
+            android:id="@+id/user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="4dp"
+            android:hint="@string/user_phone"
+            />
+
+        <EditText
+            android:id="@+id/user_Register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="4dp"
+            android:hint="@string/user_email"
+            />
+
+        <EditText
+            android:id="@+id/user_Register_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:layout_marginTop="4dp"
+            android:hint="@string/user_password"
+            />
+
+        <EditText
+            android:id="@+id/user_Register_Pass2"
+            android:layout_width="match_parent"
+            android:imeOptions="actionDone"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="4dp"
+            android:hint="@string/user_conform_password"
+            />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/sign_up"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

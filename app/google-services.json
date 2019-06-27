@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63716319701",
+    "firebase_url": "https://govappaward-93e9c.firebaseio.com",
+    "project_id": "govappaward-93e9c",
+    "storage_bucket": "govappaward-93e9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63716319701:android:999f33ffc74ed857",
+        "android_client_info": {
+          "package_name": "team.ourapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63716319701-no639scq09vge6jlo57pmq525qncqm38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxXBAhocx6igx041c4W0HK9BxGpYnlv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63716319701-no639scq09vge6jlo57pmq525qncqm38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

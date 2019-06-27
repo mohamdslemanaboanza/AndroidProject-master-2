@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Our Application</string>
+    <string name="user_email">البريد الإلكتروني</string>
+    <string name="user_password">كلمة السر</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Register_text">انشئ حساب</string>
+    <string name="user_firstName">الاسم الاول</string>
+    <string name="user_lastName">اسم العائلة</string>
+    <string name="user_conform_password">تأكيد كلمة المرور</string>
+    <string name="user_phone">الهاتف</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="Account_Created">تم إنشاء الحساب</string>
+    <string name="Account_Creation_Failed">فشل إنشاء الحساب</string>
+    <string name="Registration_complete">أكتمل التسجيل</string>
+    <string name="Registration_Failed">فشل في التسجيل</string>
+    <string name="please_accept">يرجى قبول الإذن المطلوب</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="title_location">المواقع</string>
+    <string name="title_advice">نصائح و أرشادات</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_about">حول</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="title_exit">تسجيل الخروج</string>
+    <string name="logOut">هل انت متاكد من تسجيل الخروج؟</string>
+    <string name="logOut_Title"> تسجيل الخروج</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="police">الامن العام</string>
+    <string name="ambalance">الطوارئ</string>
+    <string name="traffic">ادارة السير</string>
+    <string name="fireMan">الدفاع المدني</string>
+
+
+</resources>
