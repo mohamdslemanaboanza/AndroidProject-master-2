@@ -7,39 +7,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import team.ourapplication.ClassHelper.HomeCell;
 import team.ourapplication.ClassHelper.LocationAndAdviceCell;
 import team.ourapplication.R;
 
 
-import android.app.Activity;
-        import android.content.Context;
-
-        import android.content.Intent;
-        import android.graphics.Typeface;
-        import android.support.v7.widget.RecyclerView;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.ImageView;
-        import android.widget.TextView;
-
-
-        import java.util.ArrayList;
-
-        import team.ourapplication.ClassHelper.HomeCell;
-        import team.ourapplication.R;
+import android.content.Intent;
 
 
 public class LocationAndAdviceAdapter extends RecyclerView.Adapter<LocationAndAdviceAdapter.viewitem> {
     ArrayList<LocationAndAdviceCell> items;
     Context context;
-    Typeface myTypeface;
 
 
     public LocationAndAdviceAdapter(Context c, ArrayList<LocationAndAdviceCell> item)
@@ -100,10 +80,13 @@ public class LocationAndAdviceAdapter extends RecyclerView.Adapter<LocationAndAd
     public void onBindViewHolder(final LocationAndAdviceAdapter.viewitem holder, final int position) {
 
         holder.btn.setText(items.get(position).getBtn());
+        holder.btn.setTypeface(Typeface.createFromAsset(context.getAssets(), "BoutrosJazirahTextLight.ttf"));
+
 
         holder.btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
 
 
             }

@@ -1,6 +1,7 @@
 package team.ourapplication.Fragments;
 
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -20,6 +22,8 @@ import team.ourapplication.R;
  */
 public class AdviceFragment extends Fragment {
     RecyclerView recyclerView;
+    TextView toolbar_title;
+
 
     public AdviceFragment() {
         // Required empty public constructor
@@ -32,6 +36,10 @@ public class AdviceFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_advice, container, false);
         recyclerView = view.findViewById(R.id.recycler_advice);
+        toolbar_title=view.findViewById(R.id.toolbar_title);
+        toolbar_title.setTypeface(Typeface.createFromAsset(getActivity().getAssets(), "BoutrosJazirahTextLight.ttf"));
+
+
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         LocationAndAdviceAdapter a = new LocationAndAdviceAdapter(getActivity(),prepareArrays());
